@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightgrey;
+    color: white;
+  }
+  
+  header {
+    background-color: black;
+    padding: 15px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust the size of the logo */
+    height: auto;
+  }
+  
