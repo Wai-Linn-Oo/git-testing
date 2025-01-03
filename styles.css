@@ -51,4 +51,55 @@ body {
     background-color: yellow;
     color: black;
   }
+
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    padding: 15px;
+  }
+
+  form {
+    background-color: black;
+    color: white;
+    border: 3px solid yellow;
+    border-radius: 15px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  input {
+    padding: 20px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+  }
+
+  input[type="submit"] {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  input[type="submit"]:hover {
+    background-color: black;
+    color: yellow;
+  }
+
+  h2 {
+      border: 2px solid yellow;
+      border-radius: 5px;
+      padding: 25px;
+      margin-bottom: 50px;
+  }
+  
+
+  
   
