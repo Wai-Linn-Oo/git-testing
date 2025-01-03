@@ -2,13 +2,15 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: lightgrey;
+    background-color: black;
     color: white;
   }
   
   header {
     background-color: black;
     padding: 15px;
+    border: 3px solid yellow;
+    border-radius: 15px;
   }
   
   nav {
@@ -31,6 +33,7 @@ body {
     padding: 15px;
     background-color: black;
     color: white;
+    border: 3px solid yellow;
     border-radius: 15px;
     margin: 12px;
   }
@@ -38,14 +41,14 @@ body {
   button {
     background-color: black;
     color: white;
-    border: 2px solid white;
+    border: 2px solid yellow;
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
   }
 
   button:hover {
-    background-color: white;
+    background-color: yellow;
     color: black;
   }
   
