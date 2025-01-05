@@ -81,17 +81,7 @@ body {
     color: white;
   }
 
-  input[type="submit"] {
-    background-color: yellow;
-    color: black;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-  }
-
-  input[type="submit"]:hover {
-    background-color: black;
-    color: yellow;
-  }
+  
 
   h2 {
       border: 2px solid yellow;
